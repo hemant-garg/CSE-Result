@@ -1,0 +1,66 @@
+#mainpage{
+	margin-top: 3rem;
+	padding: 3rem;
+	line-height: 3rem;
+	text-align: center;
+}
+#logo{
+	margin-bottom: 2rem;
+}
+
+body{
+	
+	background: url('jumbotron.jpg') no-repeat center center fixed ;
+	background-size: cover;
+	}
+html{
+	height: 100%;
+}
+
+#topbar{
+	padding-top: 3rem;
+}
+h1{
+	font-family: 'Amatic SC', cursive;
+	margin-bottom: 2rem;
+	color: #F2E8E8;
+	font-weight: bolder;
+	word-spacing: 1rem;
+	text-shadow: 2px 2px 10px #D2CCCC;
+
+}
+@media(max-width: 768px) {
+	img{
+		width: 150px;
+	}
+	#mainpage button{
+	margin-bottom: 2rem;
+}
+
+
+}
+.table{
+	background-color: #EDECF6;
+	box-shadow: 1px 1px 10px #D0CBCB;
+}
+#marksheet{
+	margin-top: 5rem;
+}
+#otherresult{
+	margin-bottom: 5rem;
+	margin-top: 1rem;
+}
+#footer{
+	position: fixed;
+    bottom: 0px;
+    width: 100%;
+    color: #fff;
+    margin: 0;
+}
+
+#footer p{
+	margin-top: 1rem;
+}
+#error{
+	margin-bottom: 5rem;
+}
